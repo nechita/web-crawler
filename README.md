@@ -9,26 +9,26 @@
 ### Clone the repo
 
 ```bash
-git clone https://github.com/xyz/zipzod@latest
-cd zipzod
+git clone https://github.com/nechita/web-crawler
+cd web-crawler
 ```
 
-### Build the project
+### Install the dependencies
 
 ```bash
-go build
+npm install
 ```
 
 ### Run the project
 
 ```bash
-./zipzod -i ./input -o ./output.zip
+npm run start BASE_URL # replace the BASE_URL with your URL of choice
 ```
 
 ### Run the tests
 
 ```bash
-go test ./...
+npm run test
 ```
 
 ### Submit a pull request
